@@ -22,10 +22,10 @@ public class ATMdeno {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ATMdeno m=new ATMdeno();
-		Scanner sc=new Scanner (System.in);
+		Scanner input=new Scanner (System.in);
 		System.out.print("Emter the Money:");
 		
-		m.a=sc.nextInt();
+		m.a=input.nextInt();
 		if(m.a%100==0) {
 			m.atm();
 		}else {
