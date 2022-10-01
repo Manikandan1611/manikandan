@@ -23,7 +23,7 @@ public class ATMdeno {
 		// TODO Auto-generated method stub
 		ATMdeno m=new ATMdeno();
 		Scanner input=new Scanner (System.in);
-		System.out.print("Emter the Money:");
+		System.out.print("Enter the Money:");
 		
 		m.a=input.nextInt();
 		if(m.a%100==0) {
