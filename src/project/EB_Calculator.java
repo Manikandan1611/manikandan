@@ -1,11 +1,16 @@
 package project;
 
+import java.util.Scanner;
+
 public class EB_Calculator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int a = 450;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the unit:");
+		int a = sc.nextInt();
+
 		if (a <= 100 && a > 0) {
 			System.out.println("0");
 		}
