@@ -1,7 +1,7 @@
 package class_objects;
 
 public class WithoutInstanceVar {
-	void m(int n) {   //Call by value
+	void m(int n) { // Call by value
 		System.out.println(n);
 		n++;
 		if (n <= 5) {

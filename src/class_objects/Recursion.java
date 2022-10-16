@@ -1,6 +1,6 @@
 package class_objects;
 
-public class Recursion {   //Method call itself and Alternative of looping Statement
+public class Recursion { // Method call itself and Alternative of looping Statement
 	int n = 1;
 
 	void m1() {

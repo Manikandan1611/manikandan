@@ -7,8 +7,9 @@ public class Square {
 	void area() {
 		System.out.println(a * b);
 	}
+
 	void add() {
-		System.out.println(a+b);
+		System.out.println(a + b);
 	}
 
 	public static void main(String[] args) {
@@ -16,7 +17,7 @@ public class Square {
 		Square s2 = new Square();
 		s1.a = 5;
 		s2.a = 10;
-		s2.b=5;
+		s2.b = 5;
 		s1.b = 10;
 		s1.area();
 		s2.area();

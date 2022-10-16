@@ -10,7 +10,7 @@ public class Mark {
 	}
 
 	public static void main(String[] args) {
-		//TODO Auto-generated method stub
+		// TODO Auto-generated method stub
 		Mark a1 = new Mark();
 		a1.name = "Manikandan";
 		a1.m1 = 95;

@@ -15,10 +15,10 @@ public class Arithmetic {
 		// TODO Auto-generated method stub
 
 		Arithmetic v = new Arithmetic();
-		v.add(5,0);
-		v.add(6,2);
-		v.sub(5,3);
-		v.sub(6,3);
+		v.add(5, 0);
+		v.add(6, 2);
+		v.sub(5, 3);
+		v.sub(6, 3);
 
 	}
 
