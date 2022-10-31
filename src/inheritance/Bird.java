@@ -11,9 +11,9 @@ public class Bird{
 
 		GreenParrot m=new GreenParrot();
 		m.fly();
-		
-		
-	
+		m.speak();
+		m.run();
+		m.color();
 		
 	}  
 

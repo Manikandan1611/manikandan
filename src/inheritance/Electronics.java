@@ -8,9 +8,8 @@ class Electronics {
 	}
 
 	public static void main(String[] args) {
-		Electronics s = new Electronics();
-		s.Elec();
 		Airconditioner a = new Airconditioner();
+		a.Elec();
 		a.grinding();
 		Refrigerator m = new Refrigerator();
 		m.keepcold();
