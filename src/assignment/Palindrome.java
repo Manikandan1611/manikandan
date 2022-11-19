@@ -9,17 +9,19 @@ public class Palindrome {
 		int r = a;
 		int b = 0;
 		int c = 0;
-		while (a > 0) {
+		while (a > 0) 
+		{
 			b = a % 10;
 			a = a / 10;
 			c = ((c * 10) + b);
 		}
-		if (r == c) {
+		if (r == c)
+		{
 			System.out.print("palindrome");
-		} else {
+		}
+		else 
+		{
 			System.out.print("not palindrome");
 		}
-
 	}
-
 }
