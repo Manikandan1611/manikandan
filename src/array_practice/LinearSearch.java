@@ -5,9 +5,9 @@ public class LinearSearch {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int a[] = { 10, 20, 30, 40, 50, 60 };
+		int a[] = { 100, 20, 30, 80, 50, 60 };
 
-		int num = 40;
+		int num = 80;
 		int m = 0;
 
 		for (int i = 0; i < a.length; i++) {
