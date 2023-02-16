@@ -16,11 +16,13 @@ public class Bubble_Sort {
 				}
 
 			}
-			for (int k = 0; k < a.length; k++) {
-				System.out.print(a[k] + " ");
-			}
+//			for (int k = 0; k < a.length; k++) {
+//				System.out.print(a[k] + " ");
+//			}
 		}
-
+		for (int k = 0; k < a.length; k++) {
+			System.out.print(a[k] + " ");
+		}
 	}
 
 }
